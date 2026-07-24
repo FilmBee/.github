@@ -1,49 +1,55 @@
-# Contributing to FilmBee 🐝
+# Contributing to FilmBee
 
-Welcome to the hive! We are thrilled you want to help us build better media automation tools. Whether you are fixing a bug, adding a feature to a bot, or improving documentation, your help is appreciated.
+Thanks for your interest in contributing. Whether it's a bug fix, a new feature, or better docs, we appreciate the help.
 
-## 🚨 Security First (Important!)
+## Security
 
-**NEVER commit API Keys, Bot Tokens, or `config.py` files containing secrets.**
-* Always use Environment Variables or a `.env` file (which is added to `.gitignore`).
-* If you accidentally push a token, revoke it immediately via BotFather.
+**Never commit API keys, bot tokens, or files containing secrets.**
 
-## 🛠️ How to Contribute
+- Use environment variables or a `.env` file (always in `.gitignore`).
+- If you accidentally push a token, revoke it immediately via BotFather.
 
-### 1. Reporting Bugs
-* Check the "Issues" tab to see if it has already been reported.
-* If not, open a new issue. Include:
-    * Your OS / Environment.
-    * Python version.
-    * Steps to reproduce the error.
-    * Logs (removing any sensitive info).
+## Getting Started
 
-### 2. Local Development (Python/Bots)
-1.  **Fork** the repository.
-2.  **Clone** your fork locally.
-3.  Create a virtual environment:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # Linux/Mac
-    # or
-    venv\Scripts\activate  # Windows
-    ```
-4.  Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-5.  Create a branch for your feature: `git checkout -b feature/my-cool-feature`.
+### Reporting Bugs
 
-### 3. Pull Requests (PRs)
-* Push your branch to your fork.
-* Open a Pull Request against our `main` branch.
-* Describe clearly what your code changes.
+Check the Issues tab first. If it hasn't been reported, open a new issue with:
 
-## 🎨 Coding Standards
+- Your OS and environment
+- Python version
+- Steps to reproduce
+- Logs (with sensitive info removed)
 
-We follow standard Python PEP 8 guidelines.
-* **Linters:** We recommend using `flake8` or `black` before committing.
-* **Imports:** Keep imports organized (Standard library > Third party > Local).
-* **Variables:** Use `snake_case` for variables/functions and `CamelCase` for classes.
+### Local Development
 
-Thank you for building with FilmBee! 🐝
+1. **Fork** the repository.
+2. **Clone** your fork locally.
+3. Create a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Create a branch: `git checkout -b feature/your-feature-name`
+
+### Pull Requests
+
+- Push your branch to your fork.
+- Open a PR against the `main` branch.
+- Describe what your code changes and why.
+
+## Coding Standards
+
+We follow PEP 8.
+
+- **Formatting:** Run `black` or `flake8` before committing.
+- **Imports:** Standard library, then third-party, then local.
+- **Naming:** `snake_case` for variables and functions, `CamelCase` for classes.
+
+## Join the Team
+
+If you're interested in working on our internal tooling (media server, Telegram bots, automation pipelines), reach out on [Telegram](https://t.me/EithonX). We're always looking for people who want to build with us.

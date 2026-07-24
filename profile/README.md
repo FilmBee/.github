@@ -1,69 +1,91 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:F5C518&height=200&section=header&text=FilmBee&fontSize=60&fontAlignY=35&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header" />
+
 <div align="center">
-  <img src="./logo.png" width="150" alt="FilmBee Logo" />
-
-  <h1>The FilmBee Organization</h1>
-
-  <p>
-    <strong>Media Automation | Telegram Bots | Future Web Ecosystem</strong>
-  </p>
-
-  <p>
-    <a href="https://filmbee.pages.dev">Website</a> •
-    <a href="#-current-projects">Projects</a> •
-    <a href="#-roadmap">Roadmap</a> •
-    <a href="#-tech-stack">Tech Stack</a>
-  </p>
-
-  <p>
-    <a href="https://filmbee.pages.dev"><img src="https://img.shields.io/website?down_color=red&down_message=offline&label=filmbee.pages.dev&up_color=success&up_message=online&url=https%3A%2F%2Ffilmbee.pages.dev" alt="Website Status"></a>
-    <img src="https://img.shields.io/github/license/FilmBee/FileStreamBot?style=flat-square&color=blue" alt="License" />
-    <img src="https://img.shields.io/badge/Focus-Media%20Automation-blue?style=flat-square" alt="Focus" />
-    <img src="https://img.shields.io/badge/Est.-2025-000000?style=flat-square" alt="Established" />
-  </p>
+  <img src="./logo.png" width="90" alt="FilmBee" />
+  <br><br>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=1500&color=F5C518&center=true&vCenter=true&repeat=true&width=435&height=25&lines=media+automation+infrastructure;bridging+telegram+and+stremio" alt="Typing SVG" />
+  <br><br>
+  <a href="https://filmbee.qzz.io">
+    <img src="https://img.shields.io/badge/Media_Server-filmbee.qzz.io-F5C518?style=for-the-badge" alt="Media Server" />
+  </a>
+  &nbsp;
+  <a href="https://filmbee.pages.dev">
+    <img src="https://img.shields.io/badge/Portal-filmbee.pages.dev-16213e?style=for-the-badge" alt="Portal" />
+  </a>
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=py,ts,docker,cloudflare&theme=dark" alt="Tech Stack" />
 </div>
 
----
+<br>
 
-### 🐝 About The Hive
+<div align="center">
+  We build tools that connect Telegram with streaming platforms.<br>
+  At the core is a media server that indexes, organizes, and serves content to Stremio,<br>
+  backed by Python bots handling file management, search, deduplication, and automation.
+</div>
 
-**FilmBee** is an open-source initiative focused on simplifying how we organize, search, and manage personal media collections. Currently, we specialize in high-performance **Telegram Bots** and **Python automation scripts** for media enthusiasts.
+<br>
 
-Our long-term vision is to build a comprehensive social web platform for movie discovery and tracking.
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/FilmBee/FileStreamBot">
+<img src="https://img.shields.io/badge/FileStreamBot-F5C518?style=for-the-badge&logo=github&logoColor=black" alt="FileStreamBot" />
+</a>
+<br><br>
+<sub>Telegram file-to-link bot for direct downloads</sub>
+<br><br>
+<img src="https://img.shields.io/github/stars/FilmBee/FileStreamBot?style=flat-square&color=F5C518&label=stars" alt="Stars" />
+&nbsp;
+<img src="https://img.shields.io/github/last-commit/FilmBee/FileStreamBot?style=flat-square&color=16213e" alt="Last Commit" />
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/FilmBee/website">
+<img src="https://img.shields.io/badge/Website-16213e?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Website" />
+</a>
+<br><br>
+<sub>Organization portal at <a href="https://filmbee.pages.dev">filmbee.pages.dev</a></sub>
+<br><br>
+<img src="https://img.shields.io/github/stars/FilmBee/website?style=flat-square&color=F5C518&label=stars" alt="Stars" />
+&nbsp;
+<img src="https://img.shields.io/github/last-commit/FilmBee/website?style=flat-square&color=16213e" alt="Last Commit" />
+</td>
+</tr>
+</table>
 
-### 🚀 Current Projects
+<br>
 
-#### Open Source / Public
-- **[FilmBee Portal](https://github.com/FilmBee/website)**: The official ecosystem landing page. A serverless, dark-mode-first web portal built with HTML5, Tailwind, and Alpine.js. [**View Live Site**](https://filmbee.pages.dev).
-- **[FileStreamBot](https://github.com/FilmBee/FileStreamBot)**: A high-speed Telegram bot template that generates direct download links from files. Optimized for performance and ease of deployment.
+<details open>
+<summary><b>Internal Tooling</b></summary>
+<br>
 
-#### In Development / Private Beta
-- **ForwardFile**: An intelligent media sorter using Regex to organize movies and series while filtering unwanted files.
-- **FileSearchBot**: A tool for indexing and searching legally owned personal media collections.
-- **My-Gallery**: A lightweight HTML-based media showcase.
-
-### 🛠️ Tech Stack
-
-We use robust tools to handle media processing and automation.
-
-| Category | Technologies |
+| Project | Description |
 | :--- | :--- |
-| **Web & UI** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Alpine.js](https://img.shields.io/badge/Alpine.js-8BC0D0?style=flat-square&logo=alpine.js&logoColor=black) |
-| **Automation** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Pyrogram](https://img.shields.io/badge/Pyrogram-F5C518?style=flat-square&logo=telegram&logoColor=black) |
-| **Infrastructure** | ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white) |
+| `media-server` | Powers [filmbee.qzz.io](https://filmbee.qzz.io) |
+| `ForwardFile` | Regex-based media sorter |
+| `FileSearchBot` | File indexing and search |
+| `DuplicateFileDelete` | Channel deduplication |
+| `AutoAcceptUserbot` | Join request automation |
+| `support-bot-advanced` | Management and support |
+| `analytics` | Request trend dashboard |
+| `my-gallery` | Media gallery with admin |
 
-### 🗺️ Roadmap
+</details>
 
-- [x] Establish Core Automation Tools (Telegram Bots)
-- [x] **Release Ecosystem Portal (Website)**
-- [ ] **Phase 2:** Social & Community Features
-
-### 🤝 Contributing
-
-We welcome contributions to our public repositories! Please check the `CONTRIBUTING.md` file in the specific repository you wish to work on.
-
----
+<br>
 
 <div align="center">
-  <p><i>Organizing the hive, one script at a time.</i></p>
-  <p>© 2025 The FilmBee Organization</p>
+  <a href="https://github.com/FilmBee/.github/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL_3.0-white?style=flat-square" alt="License" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/FilmBee/.github/blob/main/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/PRs-welcome-white?style=flat-square" alt="Contributing" />
+  </a>
+  &nbsp;
+  <a href="https://t.me/EithonX">
+    <img src="https://img.shields.io/badge/Join_the_team-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" />
+  </a>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F5C518,100:16213e&height=100&section=footer" width="100%" alt="Footer" />
