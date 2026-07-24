@@ -8,11 +8,11 @@
   </picture>
   <br>
   <a href="https://filmbee.qzz.io">
-    <img src="./assets/cta-qzz.svg" height="40" alt="filmbee.qzz.io" />
+    <img src="./assets/cta-qzz.svg" height="32" alt="filmbee.qzz.io" />
   </a>
   &nbsp;&nbsp;
   <a href="https://filmbee.pages.dev">
-    <img src="./assets/cta-pages.svg" height="40" alt="filmbee.pages.dev" />
+    <img src="./assets/cta-pages.svg" height="32" alt="filmbee.pages.dev" />
   </a>
 </div>
 
@@ -26,25 +26,25 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-py-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/pill-py-light.svg" />
-    <img src="./assets/pill-py-dark.svg" height="30" alt="Python" />
+    <img src="./assets/pill-py-dark.svg" height="24" alt="Python" />
   </picture>
   &nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-ts-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/pill-ts-light.svg" />
-    <img src="./assets/pill-ts-dark.svg" height="30" alt="TypeScript" />
+    <img src="./assets/pill-ts-dark.svg" height="24" alt="TypeScript" />
   </picture>
   &nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-docker-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/pill-docker-light.svg" />
-    <img src="./assets/pill-docker-dark.svg" height="30" alt="Docker" />
+    <img src="./assets/pill-docker-dark.svg" height="24" alt="Docker" />
   </picture>
   &nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-cf-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/pill-cf-light.svg" />
-    <img src="./assets/pill-cf-dark.svg" height="30" alt="Cloudflare" />
+    <img src="./assets/pill-cf-dark.svg" height="24" alt="Cloudflare" />
   </picture>
 </div>
 
@@ -55,7 +55,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/card-filestreambot-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/card-filestreambot-light.svg" />
-      <img src="./assets/card-filestreambot-dark.svg" width="100%" alt="FileStreamBot" />
+      <img src="./assets/card-filestreambot-dark.svg" width="390" alt="FileStreamBot" />
     </picture>
   </a>
   <br><br>
@@ -63,7 +63,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/card-website-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/card-website-light.svg" />
-      <img src="./assets/card-website-dark.svg" width="100%" alt="Website" />
+      <img src="./assets/card-website-dark.svg" width="390" alt="Website" />
     </picture>
   </a>
 </div>
@@ -116,7 +116,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-gpl-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/pill-gpl-light.svg" />
-      <img src="./assets/pill-gpl-dark.svg" height="32" alt="GPL-3.0" />
+      <img src="./assets/pill-gpl-dark.svg" height="25" alt="GPL-3.0" />
     </picture>
   </a>
   &nbsp;&nbsp;
@@ -124,11 +124,11 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-contrib-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/pill-contrib-light.svg" />
-      <img src="./assets/pill-contrib-dark.svg" height="32" alt="Contributing" />
+      <img src="./assets/pill-contrib-dark.svg" height="25" alt="Contributing" />
     </picture>
   </a>
   &nbsp;&nbsp;
   <a href="https://t.me/EithonX">
-    <img src="./assets/pill-join.svg" height="32" alt="Join the team" />
+    <img src="./assets/pill-join.svg" height="25" alt="Join the team" />
   </a>
 </div>

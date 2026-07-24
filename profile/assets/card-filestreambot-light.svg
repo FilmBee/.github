@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 72">
-  <rect x="1" y="1" width="648" height="70" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
-  <text x="325" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#b8860b" text-anchor="middle">FileStreamBot</text>
-  <text x="325" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#57606a" text-anchor="middle">Telegram file-to-link bot for direct downloads</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 60">
+  <rect x="1" y="1" width="388" height="58" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1" />
+  <text x="195" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#b8860b" text-anchor="middle">FileStreamBot</text>
+  <text x="195" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#57606a" text-anchor="middle">Telegram file-to-link bot for direct downloads</text>
 </svg>
