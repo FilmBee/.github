@@ -70,23 +70,65 @@
 
 <br>
 
-### Internal
+<div align="center">
+  <h3>Internal Ecosystem</h3>
 
-| Project | Description |
-| :--- | :--- |
-| `media-server` | Powers [filmbee.qzz.io](https://filmbee.qzz.io) |
-| `ForwardFile` | Regex-based media sorter |
-| `FileSearchBot` | File indexing and search |
-| `DuplicateFileDelete` | Channel deduplication |
-| `AutoAcceptUserbot` | Join request automation |
-| `support-bot-advanced` | Management and support |
-| `analytics` | Request trend dashboard |
-| `my-gallery` | Media gallery with admin |
+  <table>
+  <tr>
+    <td align="right" width="45%"><code>media-server</code></td>
+    <td align="left" width="55%">Powers <a href="https://filmbee.qzz.io">filmbee.qzz.io</a></td>
+  </tr>
+  <tr>
+    <td align="right"><code>ForwardFile</code></td>
+    <td align="left">Regex-based media sorter</td>
+  </tr>
+  <tr>
+    <td align="right"><code>FileSearchBot</code></td>
+    <td align="left">File indexing &amp; search</td>
+  </tr>
+  <tr>
+    <td align="right"><code>DuplicateFileDelete</code></td>
+    <td align="left">Channel deduplication</td>
+  </tr>
+  <tr>
+    <td align="right"><code>AutoAcceptUserbot</code></td>
+    <td align="left">Join request automation</td>
+  </tr>
+  <tr>
+    <td align="right"><code>support-bot-advanced</code></td>
+    <td align="left">Management &amp; support tools</td>
+  </tr>
+  <tr>
+    <td align="right"><code>analytics</code></td>
+    <td align="left">Request trend dashboard</td>
+  </tr>
+  <tr>
+    <td align="right"><code>my-gallery</code></td>
+    <td align="left">Media gallery with admin</td>
+  </tr>
+  </table>
+</div>
 
 <br>
 
 <div align="center">
-  <sub>
-    <a href="https://github.com/FilmBee/.github/blob/main/LICENSE">GPL-3.0</a> · <a href="https://github.com/FilmBee/.github/blob/main/CONTRIBUTING.md">Contributing</a> · <a href="https://t.me/EithonX">Join the team</a>
-  </sub>
+  <a href="https://github.com/FilmBee/.github/blob/main/LICENSE">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-gpl-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-gpl-light.svg" />
+      <img src="./assets/pill-gpl-dark.svg" height="32" alt="GPL-3.0" />
+    </picture>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/FilmBee/.github/blob/main/CONTRIBUTING.md">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/pill-contrib-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/pill-contrib-light.svg" />
+      <img src="./assets/pill-contrib-dark.svg" height="32" alt="Contributing" />
+    </picture>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://t.me/EithonX">
+    <img src="./assets/pill-join.svg" height="32" alt="Join the team" />
+  </a>
 </div>
